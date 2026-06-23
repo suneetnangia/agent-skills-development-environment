@@ -1,6 +1,6 @@
 # Agent Skills Development Environment (ASDE)
 
-This document focuses on the [Agent Skills](agent_skills.md) (referenced as Skills here onwards) development experience, particularly when Skills are developed by business domain experts (referred to as Skill developers hereafter) rather than software developers. By providing Skill developers with a cohesive environment to develop and iterate on Skill definitions, we reduce the overall time to market for AI solutions and improve the quality of experiences for our customers.
+This document focuses on the [Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices) (referenced as Skills here onwards) development experience, particularly when Skills are developed by business domain experts (referred to as Skill developers hereafter) rather than software developers. By providing Skill developers with a cohesive environment to develop and iterate on Skill definitions, we reduce the overall time to market for AI solutions and improve the quality of experiences for our customers.
 
 ## Out of Scope
 
@@ -8,7 +8,7 @@ This document does not cover release and deployment side of Skills, that should 
 
 ## Development
 
-At its core, the development of a Skill should follow the [Agent Skills](agent_skills.md) document, which covers the best practices for authoring Skills.
+At its core, the development of a Skill should follow the [Agent Skills]([agent_skills.md](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)) document, which covers the best practices for authoring Skills.
 
 One of the key parts of the Skill development exercise is to ensure a Skill has strong task adherence, inference generation, triggering thresholds as per the intention of the Skill developer.
 This is a difficult task to achieve because of the variables present in the environment in which the Skill is loaded, these variables may include:
